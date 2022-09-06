@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  POSTGRES_HOST: kubedb.cnvyzfvzvzua.us-east-2.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: chimenim-kubernetes-project-bucket
+  AWS_REGION: us-east-2
+  AWS_PROFILE: default
+  URL: http://localhost:8100
+  JWT_SECRET: testing
